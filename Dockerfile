@@ -1,4 +1,4 @@
-FROM node:latest
+FROM node:7
 MAINTAINER Juan Saavedra <jsaavedra@octobot.io>
 RUN apt-get update &&\
   apt-get install -y\
